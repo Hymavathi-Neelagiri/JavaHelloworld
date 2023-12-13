@@ -3,26 +3,5 @@
   <groupId>JavaHelloworld</groupId>
   <artifactId>JavaHelloworld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <plugin>
-      <artifactId>maven-assembly-plugin</artifactId>
-      <configuration>
-        <archive>
-          <manifest>
-            <mainClass>com.test.MainClassName</mainClass>
-          </manifest>
-        </archive>
-        <descriptorRefs>
-          <descriptorRef>jar-with-dependencies</descriptorRef>
-        </descriptorRefs>
-      </configuration>
-      <executions>
-        <execution>
-          <id>make-assembly</id> 
-          <phase>package</phase> <!-- packaging phase -->
-          <goals>
-            <goal>single</goal>
-          </goals>
-        </execution>
-      </executions>
-    </plugin>
+ 
 </project>
